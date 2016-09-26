@@ -1,14 +1,10 @@
 {
-  "name": "angular-quickstart",
+  "name": "ng2-library-seed",
   "version": "1.0.0",
   "description": "QuickStart package.json from the documentation, supplemented with testing support",
   "scripts": {
-    "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
-    "docker-build": "docker build -t ng2-quickstart .",
-    "docker": "npm run docker-build && docker run -it --rm -p 3000:3000 -p 3001:3001 ng2-quickstart",
     "lint": "tslint ./src/**/*.ts -t verbose",
-    "lite": "lite-server",
-    "postinstall": "typings install",
+    "typings:install": "typings install",
     "test": "tsc && concurrently \"tsc -w\" \"karma start karma.conf.js\"",
     "test-once": "tsc && karma start karma.conf.js --single-run",
     "tsc": "tsc",
@@ -17,8 +13,9 @@
     "webdriver:update": "webdriver-manager update"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Jamie Bertram <jamie@novoideation.ca> (http://www.novoideation.ca)",
+  "license": "MIT",
+  "main": "./dist/index.js",
   "dependencies": {
     "@angular/common":  "2.0.0",
     "@angular/compiler":  "2.0.0",

@@ -1,3 +1,7 @@
+dependencies:
+  post:
+    - npm run typings:install
+
 test:
   override:
     - npm run lint
