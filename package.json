@@ -1,7 +1,7 @@
 {
-  "name": "ng2-library-seed",
-  "version": "1.0.0",
-  "description": "QuickStart package.json from the documentation, supplemented with testing support",
+  "name": "ng2-form-composer",
+  "version": "0.1.0",
+  "description": "Create Angular 2 forms declaritively with YAML",
   "scripts": {
     "lint": "tslint ./src/**/*.ts -t verbose",
     "typings:install": "typings install",
@@ -35,6 +35,12 @@
     "angular-in-memory-web-api": "~0.1.0",
     "bootstrap": "^3.3.6"
   },
+  "keywords": [
+    "angular",
+    "angular2",
+    "dynamic",
+    "forms"
+  ],
   "devDependencies": {
     "canonical-path": "0.0.2",
     "concurrently": "^2.2.0",
@@ -53,5 +59,11 @@
     "typescript": "^2.0.3",
     "typings": "^1.4.0"
   },
-  "repository": {}
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Novo-Ideation-Inc/ng2-form-composer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Novo-Ideation-Inc/ng2-form-composer/issues"
+  },
 }
