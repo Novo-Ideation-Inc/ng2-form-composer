@@ -16,7 +16,7 @@
   "keywords": [],
   "author": "Jamie Bertram <jamie@novoideation.ca> (http://www.novoideation.ca)",
   "license": "MIT",
-  "main": "index.js",
+  "main": "dist/index.js",
   "dependencies": {
     "@angular/common": "2.0.0",
     "@angular/compiler": "2.0.0",
